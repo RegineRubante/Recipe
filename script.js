@@ -18,3 +18,10 @@ window.onscroll = () => {
 
     });
 };
+
+
+//sign in sign out
+const signUpButton=document.getElementById('signUpButton');
+const signInButton=document.getElementById('signInButton');
+const signIn=document.getElementById('signIn');
+const signUp=document.getElementById('signup');
