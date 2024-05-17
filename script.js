@@ -25,3 +25,12 @@ const signUpButton=document.getElementById('signUpButton');
 const signInButton=document.getElementById('signInButton');
 const signIn=document.getElementById('signIn');
 const signUp=document.getElementById('signup');
+
+signInButton.addEventListener('click',function(){
+    signIn.style.display="block";
+    signUp.style.display="none";
+})
+signUpButton.addEventListener('click',function(){
+   signIn.style.display="none";
+    signUp.style.display="block";
+})
