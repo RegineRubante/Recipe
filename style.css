@@ -35,3 +35,30 @@ nav a{
 nav a:hover{
     color: blanchedalmond;
 }
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content:left;
+    padding-left: 30px;
+    align-items:center;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+p{
+    font-size: 30px;
+    font-weight: 200;
+}
+.w{
+    font-size: 30px;
+    font-weight: bold;
+}
+#home{
+    background-image: url(3.jpg);
+}
+#about{
+    background-image: url(2.jpg);
+}
+#contact{
+    background-image: url(1.jpeg);
+}
