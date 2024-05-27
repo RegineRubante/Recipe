@@ -106,3 +106,7 @@ button{
     font-size: 1rem;
     font-weight: bold;
 }
+button:hover{
+    color: limegreen;
+    text-decoration: underline;
+}
