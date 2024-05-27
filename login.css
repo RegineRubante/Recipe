@@ -69,3 +69,11 @@ input:focus~label,input:not(:placeholder-shown)~label{
     font-size: 1rem;
     margin-bottom: 1rem;
 }
+.recover a{
+    text-decoration: none;
+    color: lime;
+}
+.recover a:hover{
+    color: rgb(205, 159, 50);
+    text-decoration: underline;
+}
