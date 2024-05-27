@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+body{
+    background-color:orange;
+    background: linear-gradient(orange, orange);
+}
+.container{
+    background: white;
+    width: 450px;
+    padding: 1.5rem;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 20px 35px rgba(117, 98, 2, 0.9);
+}
+.form{
+    margin: 0 2rem;
+}
