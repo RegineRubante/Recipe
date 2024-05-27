@@ -99,3 +99,10 @@ input:focus~label,input:not(:placeholder-shown)~label{
     margin-top: 0.9rem;
     font-weight: bold;
 }
+button{
+    color: lime;
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: bold;
+}
