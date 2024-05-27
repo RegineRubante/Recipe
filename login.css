@@ -77,3 +77,25 @@ input:focus~label,input:not(:placeholder-shown)~label{
     color: rgb(205, 159, 50);
     text-decoration: underline;
 }
+.btn{
+    font-size: 1.1rem;
+    padding: 8px 0;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    width: 100%;
+    background: lightgreen;
+    color: white;
+    cursor: pointer;
+    transition: 0.9s;
+}
+.btn:hover{
+    background: black;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 4rem;
+    margin-top: 0.9rem;
+    font-weight: bold;
+}
