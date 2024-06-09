@@ -14,3 +14,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 window.location.href = 'http://localhost/MyRecipe/login.php';
               </script>";
         exit();
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    $conn->close();
+}
