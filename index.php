@@ -27,3 +27,7 @@ include('assets/modal.php');
         }
  </style>
 <body>
+ 
+ <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <a class="navbar-brand ml-5" href="http://localhost/MyRecipe/index.php">Recipe Food Finder</a>
