@@ -66,3 +66,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
               <div class="card-body p-4 p-lg-5 text-black">
 
               <form method="POST" action="">
+
+              <div class="d-flex align-items-center mb-3 pb-1">
+                    <i class="fas fa-kitchen-set fa-2x me-3" style="color: black;"></i>
+                    <span class="h1 fw-bold mb-0">Welcome!</span>
+                  </div>
