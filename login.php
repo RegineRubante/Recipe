@@ -74,3 +74,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
                   <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Sign into your account</h5>
 
+                  <div data-mdb-input-init class="form-outline mb-4">
