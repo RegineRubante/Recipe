@@ -49,3 +49,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <!-- Style CSS -->
     <link rel="stylesheet" href="assets/style.css">
+
+    </head>
+<body>
