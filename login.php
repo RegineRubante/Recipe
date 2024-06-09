@@ -21,3 +21,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 window.location.href = 'http://localhost/MyRecipe/login.php';
               </script>";
         exit();
+    }
+} else {
+    echo "<script>
+            alert('No user found!'); 
+            window.location.href = 'http://localhost/MyRecipe/login.php';
+          </script>";
+    exit();
+}
