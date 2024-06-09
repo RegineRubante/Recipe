@@ -40,3 +40,14 @@ include('assets/modal.php');
                 <li class="nav-item">
                     <a class="nav-link" href="login.php">Food Categories</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.php">Food List</a>
+                </li>
+            </ul>   
+            <div class="form-inline my-2 my-lg-0 mr-5">
+                <div class="dropdown">
+                    <a class="nav-link dropdown-toggle link-unstyled" style="text-decoration: none; color: #eee;" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                    <i class="fa fa-user"></i></a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="login.php">Login Now!</a>
+                    </div>
