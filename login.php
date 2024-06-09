@@ -15,3 +15,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $_SESSION['username'] = $row['username'];
             $_SESSION['role'] = $row['role'];
             header("Location: dashboard.php");
+        } else {
+            echo "<script>
+                alert('Invalid Password!'); 
+                window.location.href = 'http://localhost/MyRecipe/login.php';
+              </script>";
+        exit();
