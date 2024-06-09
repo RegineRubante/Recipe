@@ -71,3 +71,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <i class="fas fa-kitchen-set fa-2x me-3" style="color: black;"></i>
                     <span class="h1 fw-bold mb-0">Welcome!</span>
                   </div>
+
+                  <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Sign into your account</h5>
+
