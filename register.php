@@ -68,3 +68,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <input type="text" id="username" name="username" class="form-control form-control-lg"  required />
                     <label class="form-label" for="form2Example17">Enter Username</label>
                   </div>
+
+                  <div data-mdb-input-init class="form-outline mb-4">
+                    <input type="password" id="password" name="password" class="form-control form-control-lg" required />
+                    <label class="form-label" for="form2Example27">Enter Password</label>
+                  </div>
