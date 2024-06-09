@@ -73,3 +73,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <input type="password" id="password" name="password" class="form-control form-control-lg" required />
                     <label class="form-label" for="form2Example27">Enter Password</label>
                   </div>
+
+                  <div data-mdb-input-init class="form-outline mb-4" hidden>
+                    <select name="role">
+                      <option value="user">User</option>
+                      <option value="admin">Admin</option>
+                    </select>
+                  </div>
