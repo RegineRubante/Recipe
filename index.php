@@ -18,3 +18,12 @@ include('assets/modal.php');
 
 <!-- Style CSS -->
 <link rel="stylesheet" href="assets/style.css">
+
+</head>
+ <style>
+        body {
+            background-image: url("image/2.jpg");
+            background-size: cover;
+        }
+ </style>
+<body>
