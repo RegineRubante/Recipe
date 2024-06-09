@@ -51,3 +51,14 @@ include('assets/modal.php');
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="login.php">Login Now!</a>
                     </div>
+                    </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="carousel-caption d-none d-md-block" style="margin-top: 70px;">
+        <h1 class="caption"><strong>Welcome to Recipe Food Finder!</strong></h1>
+            <div style = "margin-top: 50px;">
+                <a href="login.php" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Login or Sign up Now</a>
+            </div>
+    </div>
